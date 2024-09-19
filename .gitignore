@@ -39,7 +39,21 @@ bower_components
 build/Release
 
 # Dependency directories
-node_modules/
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 jspm_packages/
 
 # Snowpack dependency directory (https://snowpack.dev/)
